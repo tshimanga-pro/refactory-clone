@@ -1,158 +1,214 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Refactory Academy</title>
+  <head>
+    <link rel="stylesheet" href="style3.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Refactory Academy Clone</title>
+    <!-- Making use of Internal Style rather: we create call a tag 'Style' -->
+    <style>
+      /* since we are making use of External Style, we have transferted all the our Internal Style. Simply because the Internal Style, always overwrithe the External one*/
+    </style>
+  </head>
 
-    <link rel="stylesheet" href="style.css">
-
-   </head>
-<body>
-    
-</body>
-</html>
-  <body style="background-color: rgb(196, 154, 236)">
-
+  <body style="background-color: rgb(226, 207, 243)">
     <!-- Header Section -->
+
     <header>
       <!-- Refactory Logo -->
       <img
         src="https://refactory.academy/wp-content/uploads/2025/07/Refactory-Logo-White.png"
         alt="Refactory logo"
-        width="100px"
+        width="100px,"
       />
 
-      <!-- nav -->
-
-      <nav class="navbar">
-        <ul style="list-style-type: none;">
-          <li><a href="about-ushtml" class="nav-links">About Us</a></li>
-          <li><a href="courses.html">Courses</a></li>
-          <li><a href="finance-aid.html">Financial Aid</a></li>
+            <!-- Normal Menu -->
+       <div class="menu" style="list-style-type: none">
           <li>Tech Talent</li>
           <li>Patnerships</li>
           <li>Stories</li>
           <li>Contact</li>
           <li>FAQs</li>
-        </ul>
-      </nav>
+       </div>    
+
+      <!--nav  -->
+     <nav>
+      <div class="nav_btn">
+        <ul style="list-style-type: none">
+          <li>
+            <a href="about-us3.html" class="nav_links">About Us</a>
+          </li>
+          <li><a href="courses.html" class="nav_links">Courses</a></li>
+          <li><a href="finance-aid.html" class="nav_links" >Financial Aid</a></li>
+     </div>
+      </nav>     
+    
+        
+      
     </header>
+
     <!-- Hero Section to updated with bacground img-->
-    <section class="hero-section">
+
+    <section class="hero_section">
       <div>
-        <h1>Transforming Africa’s Tech Talent for the Future</h1>
-        <p>Tech programs by and for the Tech Industry</p>
-        <button class="button-link btn-patner"><a href="partnerships.html" class="button-link">Partner With Us</a></button>
-        <button class="button-link btn-progm"><a href="courses.html" class="button-link">Explore Programs</a></button>
-        <button class="button-link btn-talent"><a href="tech-talent.html">Hire Talent</a></button>
-      </div>
+        <h1 class="hero_heading">
+          Transforming Africa’s Tech Talent for the Future
+        </h1>
+        <p class="hero_para">Tech programs by and for the Tech Industry</p>
+        <button class="patner_btn">
+          <a href="partnerships.html" class="btn_links">Partner With Us</a>
+        </button>
+        <button class="pgm_btn">
+          <a href="programs.html" class="btn_links">Explore Programs</a>
+        </button>
+        <button class="talent_btn">
+          <a href="tech-talent.html" class="btn_links">Hire Talent</a>
+        </button>
+      </div><br><br>
     </section>
     <!-- Content section -->
-    <div>
-      <h3>Refactory Academy</h3>
-      <h5>Empowering Uganda's Next Generation of Tech Talent</h5>
-      <p>
+    <div class="cont1_section">
+      <h3 class="h3_section1">Refactory Academy</h3>
+      <h5 class="h5_section1">
+        Empowering Uganda's Next Generation of Tech Talent
+      </h5>
+      <p class="para_section1">
         Refactory is a software-skilling academy addressing the need to produce
         skilled software developers in Uganda today. We are training the next
         generation of software developer talent and experts responsive to the
         needs of the ecosystem.
       </p>
-      <p>
+      <p class="para2_section1">
         Refactory Academy is revolutionizing the tech industry in Uganda by
         blending essential in-demand tech skills with soft skills needed by the
         tech industry.
       </p>
-      <button><a href="about-us.html" target="_blank">Learn More</a></button>
+      <button class="LearnMore_btn">
+        <a href="about-us3.html" target="_blank" class="btn_links"
+          >Learn More</a
+        >
+      </button>
     </div>
-    <!-- Content img -->
-
+    
     <img
       src="https://refactory.academy/wp-content/uploads/2025/08/0G2A8223-1536x1024.jpg"
-      width="300px"
+      width="500px"
       alt="Refactory image"
     />
-    <div></div>
-    <section>
-      <!-- Section 2 -->
-      <div>
-        <title>Start your dream career!</title>
-        <h3>Explore Featured Courses</h3>
-      </div>
-    </section>
-    <section>
-      <div>
-        <!-- Section 3 -->
-        <!-- img1 -->
-        <img
+
+    <!-- Content section 3 -->
+
+      <section>
+      
+          <div class="cont1_section2">
+              <h3 class="h3_section2">Start your dream career!</h3>
+              <h2 class="h2_section2">Explore Featured Courses</h2>
+          </div>
+      </section>
+
+      <section>
+      
+        <div class="cont2_section">
+
+<!-- img2  section 3-->
+ <div class="container_imgs">
+<img
           src="https://refactory.academy/wp-content/uploads/2025/08/MAL_6149-768x512.jpg"
           alt="Refactory"
-          width="200px"
-        />
-        <h5>Foundational Courses</h5>
-        <p>
-          These courses build the essential knowledge and skills needed to
-          thrive in more advanced or specialized tech fields.
-        </p>
-        <button><a href="about-us.html">Learn More</a></button>
-      </div>
-    </section>
-    <section>
-      <div>
-        <!-- im2 -->
+          width="350px"
+        >
+        <!-- img2 -->
         <img
           src="https://refactory.academy/wp-content/uploads/2025/09/MAL_6245-768x512.jpg"
           alt="Refactory"
-          width="200px"
+          width="350px"
         />
-        <h5>Apprenticeship Course</h5>
-        <p>
-          Designed to provide aspiring software developers with technical
-          training and industry-led mentorship.
-        </p>
-       <button><a href="about-us.html">Learn More</a></button>
-      </div>
-    </section>
-
-    <section>
-      <!-- Section 4 img -->
-      <div>
         <img
           src="https://refactory.academy/wp-content/uploads/2025/07/MAL_6484-768x512.jpeg"
           alt="Refactory"
-          width="200px"
+          width="350px"
         />
-        <p>
-          Go beyond the basics to develop mastery in high-demand fields, prepare
-          for innovation-driven careers.
-        </p>
-        <button><a href="programs.html">Learn More</a>
+ </div>
+              
+        <!-- Content Section 4 -->
+     <section>
+          
+      <div class="heading_section4">
+           <h5>Foundational Courses</h5>
+           <h5 class="hAp_section4">Apprenticeship Course</h5>
+           <h5 class="hAd_section4">Advanced Courses</h5>
       </div>
-    </section>
-    <!-- Footer Section -->
-    <section>
-      <div>
-     <img src="https://refactory.academy/wp-content/uploads/2025/07/Refactory-Logo-White.png" width="100px" alt="Refectoty Logo">
-     <div>Refactory is a Tech skilling Academy. We are the industry’s blueprint for hiring software talent.</div>
+      <div class="para_section4">
+           <p>These courses build the essential knowledge and skills needed 
+              thrive in more advanced or specialized tech fields.
+           </p>
+           
+            <p>Designed to provide aspiring software developers with technical
+               training and industry-led mentorship.
+            </p>
+            <p>Go beyond the basics to develop mastery in high-demand fields, prepare
+               for innovation-driven careers.
+            </p>
       </div>
-      <div>
-        <h5>Resources</h5>
-        <a href="stories.html">Stories</a>
-        <a href="courses.html">careers</a>
-        <a href="faqs.html">FAQs</a>
+      <div class="action_btn">
+         <button  class="call_action"><a href="programs.html" class="btn_links">Learn More</a></button>
+         <button  class="call_action"><a href="programs.html" class="btn_links">Learn More</a></button>
+         <button  class="call_action"><a href="programs.html" class="btn_links">Learn More</a></button>   
       </div>
-      <div>
-        <h5>Get in touch</h5>
-      </div>
-      <div>
-        <h5>Visit us</h5>        
-      </div>
-      <div>Refactory Academy, 2nd Floor, Clarke International University. Kawagga Close off Kalungi Road, Muyenga
+         
+         <!-- 10X Programs Section (5)-->
+      <section>
+        <div class="tenX_pgm">
 
-Location
-© 2026 Refactory. All Rights Reserved.
-
-</div>
+        <h3 class="h3_section5">10X Program</h3>
+          <h5 class="h5_section5">Inclusively Equipping Young Women in Advanced Digital ,<br>Skills & Connecting 
+            Them to Dignified Work</h5>
+          <p class="para_section5">Refactory Academy is empowering young women with relevant <br>tech skills and life-changing opportunities, equipping them to thrive<br> in the
+           digital economy as individuals and as business owners.</p>
+           
+           <button class="LearnMore_btn"><a href="about-us3.html" target="_blank" class="btn_links"
+          >Learn More</a>
+      </button><br>
+          <img src="https://refactory.academy/wp-content/uploads/2025/08/Outbox-1.png" class="images" alt="outbook" width="100px" >
+          <img src="https://refactory.academy/wp-content/uploads/2025/08/UNCDF.png" alt="uncdf" width="100px">
+          <img src="https://refactory.academy/wp-content/uploads/2025/08/Mastercard-Foundation.png" alt="mastercard" width="100px">
+           
+        </div>
+        <img src="https://refactory.academy/wp-content/uploads/2025/09/MAL_6260-1536x1024.jpg" alt="Refactory" width="500px"> 
+         <br><br>
     </section>
+    <!-- Footer -->
+     <section  class="Footer">
+      <div class="footer_heading">
+            <img
+          src="https://refactory.academy/wp-content/uploads/2025/07/Refactory-Logo-White.png"
+          alt="Refactory logo"
+           width="150px,">
+         <p>Resources</p>
+         <p>Get in touch</p>
+         <p>Visit us</p>
+      </div>
+       <div class="Footer2">
+            <p>Refactory is a Tech skilling Academy. We are the industry’s blueprint for hiring software talent.</p>
+            <p>Careers
+            FAQs
+            Testimonials
+            Privacy Policy
+            </p>
+            <p>
+              +256 (0) 393254046
+              +256 (0) 759243109
+              partnerships@refactory.academy
+              study@refactory.academy
+            </p> 
+            <p>
+              Refactory Academy, 2nd Floor, Clarke International University. <br>Kawagga Close off Kalungi Road, Muyenga
+            </p>
+             
+       </div>  
+         
+     </section>
+     
+
   </body>
 </html>

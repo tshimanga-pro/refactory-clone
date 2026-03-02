@@ -1,0 +1,186 @@
+header {
+  background-color: #663367;
+}
+.menu {
+  color: white;
+  text-decoration: none;
+  display: inline-flex;
+  gap: 30px;
+  justify-content: center;
+  padding-left: 700px;
+  font-size: 18px;
+}
+.nav_links {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.hero_section {
+  text-align: center;
+}
+.btn_links {
+  text-decoration: none;
+  color: white;
+}
+.hero_heading {
+  font-size: 45px;
+  color: white;
+}
+.hero_para {
+  font-size: 30px;
+  color: white;
+}
+.patner_btn {
+  background-color: #663367;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 15px;
+  color: white;
+}
+.pgm_btn {
+  background-color: rgb(206, 190, 44);
+  padding: 10px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+.talent_btn {
+  background-color: white;
+  color: #663367;
+  padding: 10px;
+  margin-left: 15px;
+  border: none;
+  border-radius: 5px;
+}
+.cont1_section {
+  width: 600px;
+  padding-left: 90px;
+  display: inline-block;
+}
+.h5_section1 {
+  font-size: 20px;
+  color: #38bfc3;
+}
+.h3_section1 {
+  font-size: 30px;
+  color: #663367;
+}
+.para_section1 {
+  font-size: 17px;
+  padding-right: 90px;
+}
+.para2_section1 {
+  font-size: 17px;
+  padding-right: 90px;
+}
+.cont1_section2 {
+  text-align: center;
+}
+.h3_section2 {
+  color: #38bfc3;
+  padding-top: 70px;
+  font-size: 20px;
+}
+.h2_section2 {
+  color: #663367;
+  font-size: 30px;
+}
+.LearnMore_btn {
+  background-color: rgb(206, 190, 44);
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+.container_imgs {
+  padding-left: 100px;
+  display: flex;
+  gap: 40px;
+}
+.heading_section4 {
+  padding-left: 100px;
+  gap: 40px;
+  display: flex;
+  color: #663367;
+  font-size: 23px;
+}
+.hAp_section4 {
+  margin-left: 177px;
+}
+.hAd_section4 {
+  margin-left: 177px;
+}
+.para_section4 {
+  padding-left: 90px;
+  gap: 40px;
+  display: flex;
+  font-size: 16px;
+}
+.call_action {
+  display: inline-block;
+  margin-left: 120px;
+  margin-right: 200px;
+  background-color: rgb(206, 190, 44);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.tenX_pgm {
+  width: 680px;
+
+  display: inline-block;
+}
+.h3_section5 {
+  padding-left: 100px;
+  gap: 40px;
+  display: flex;
+  color: #076bb3;
+  font-size: 30px;
+}
+.h5_section5 {
+  padding-left: 100px;
+  color: #002a48;
+  gap: 40px;
+  display: flex;
+  font-size: 20px;
+}
+.para_section5 {
+  padding-left: 100px;
+  gap: 40px;
+  display: flex;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.LearnMore_btn {
+  margin-left: 150px;
+}
+.images {
+  margin-left: 100px;
+  margin-right: 20px;
+}
+.Footer {
+  background-color: #280a58;
+  height: 45vh;
+}
+.footer_heading {
+  padding-left: 90px;
+  gap: 250px;
+  display: flex;
+  font-size: 20px;
+  color: #076bb3;
+}
+.Footer2{
+  padding-left: 95px;
+  gap: 95px;
+  display: flex;
+  font-size: 17px;
+  margin-left: 5px;
+  color: white;
+}
